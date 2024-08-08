@@ -157,14 +157,14 @@ else:
     
 
 
-    DATABASES['default'] = {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'marphi',  # Database name
-        'USER': 'marphi_user',  # Database user
-        'PASSWORD': '1edMMxpzKjAga2re8u1tSkVIf3dIo7k5',  # Database password
-        'HOST': 'dpg-cqq9e7l6l47c73aqeqdg-a.oregon-postgres.render.com',  # Database host
-        'PORT': '5432',  # Database port
-    }
+    # DATABASES['default'] = {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'marphi',  # Database name
+    #     'USER': 'marphi_user',  # Database user
+    #     'PASSWORD': '1edMMxpzKjAga2re8u1tSkVIf3dIo7k5',  # Database password
+    #     'HOST': 'dpg-cqq9e7l6l47c73aqeqdg-a.oregon-postgres.render.com',  # Database host
+    #     'PORT': '5432',  # Database port
+    # }
 
     
     
