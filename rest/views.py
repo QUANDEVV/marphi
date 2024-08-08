@@ -368,8 +368,7 @@ def auction_detail(request, pk):
 
 
 
-
-api_view(['GET', 'POST'])
+@api_view(['GET', 'POST'])
 def adverts_list(request):
     if request.method == 'GET':
         adverts = Adverts.objects.all()

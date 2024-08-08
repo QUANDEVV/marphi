@@ -167,7 +167,6 @@ class Adverts(models.Model):
     
     
     
-    
 
 
   

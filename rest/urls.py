@@ -9,6 +9,7 @@ from .views import UserListCreateView, UserDetailView
 from django.contrib import admin
 # from .views import VideoListCreateView
 from .views import create_password, get_passwords
+from .views import adverts_list, adverts_detail
 
 
 schema_view = get_schema_view(
@@ -69,9 +70,8 @@ urlpatterns = [
 
 
 
-    path('adverts/', views.adverts_list, name='adverts-list'),
-    path('adverts/<int:pk>/', views.adverts_detail, name='adverts-detail'),
-
+    path('adverts/', views.adverts_list, name='adverts_list'),
+    path('adverts/<int:pk>/', views.adverts_detail, name='adverts_detail'),
 
 
     path('auctions/', views.auction_list, name='auction-list'),

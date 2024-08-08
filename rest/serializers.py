@@ -59,7 +59,6 @@ class AdvertsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Adverts
         fields = ['id', 'image', 'name', 'description', 'price']
-
    
 
 
