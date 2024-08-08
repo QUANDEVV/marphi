@@ -15,8 +15,8 @@ admin.site.register(Password)
 
 
 
-# admin.site.register(Auction)
-# admin.site.register(Adverts)
+admin.site.register(Auction)
+admin.site.register(Adverts)
 
 
 
