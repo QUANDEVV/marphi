@@ -69,7 +69,13 @@ urlpatterns = [
 
 
 
+    path('adverts/', views.adverts_list, name='adverts-list'),
+    path('adverts/<int:pk>/', views.adverts_detail, name='adverts-detail'),
 
+
+
+    path('auctions/', views.auction_list, name='auction-list'),
+    path('auctions/<int:pk>/', views.auction_detail, name='auction-detail'),
 
     
     
