@@ -144,14 +144,14 @@ if DEBUG:
     }
 else:
     # Use PostgreSQL for production
-    # DATABASES['default'] = {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'aifans',  # Database name
-    #     'USER': 'aifans_user',  # Database user
-    #     'PASSWORD': 'YBm8wQKH6BD2WDSy15cnRGc4M9C4bP4F',  # Database password
-    #     'HOST': 'dpg-cp2eo36n7f5s73fgh5p0-a.oregon-postgres.render.com',  # Database host
-    #     'PORT': '5432',  # Database port
-    # }
+    DATABASES['default'] = {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'aifans',  # Database name
+        'USER': 'aifans_user',  # Database user
+        'PASSWORD': 'YBm8wQKH6BD2WDSy15cnRGc4M9C4bP4F',  # Database password
+        'HOST': 'dpg-cp2eo36n7f5s73fgh5p0-a.oregon-postgres.render.com',  # Database host
+        'PORT': '5432',  # Database port
+    }
 
 
     
