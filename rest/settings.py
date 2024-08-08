@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-67()*kg*%sn(s%rk!&=$pry4bixxjg1dm8r)rcj-ikp-h$3f@h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*' , 'localhost', 'localhost:3000' , 'http://localhost:3000' , '.vercel.app' , 'aifans-django.onrender.com' , 'marphi.onrender.com', 'https://vpn-drab.vercel.app' , 'vpn-drab.vercel.app', '"https://vpn-drab.vercel.app",']
+ALLOWED_HOSTS = ['*' , 'localhost', 'localhost:3000' , 'http://localhost:3000' , '.vercel.app' , 'aifans-django.onrender.com' , 'https://vpn-drab.vercel.app' , 'vpn-drab.vercel.app', '"https://vpn-drab.vercel.app",']
 
 
 # Application definition
@@ -145,22 +145,15 @@ if DEBUG:
     }
 else:
     # Use PostgreSQL for production
-    # DATABASES['default'] = {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'aifans',  # Database name
-    #     'USER': 'aifans_user',  # Database user
-    #     'PASSWORD': 'YBm8wQKH6BD2WDSy15cnRGc4M9C4bP4F',  # Database password
-    #     'HOST': 'dpg-cp2eo36n7f5s73fgh5p0-a.oregon-postgres.render.com',  # Database host
-    #     'PORT': '5432',  # Database port
-    # }
     DATABASES['default'] = {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'marphi',  # Database name
-        'USER': 'marphi_user',  # Database user
-        'PASSWORD': '1edMMxpzKjAga2re8u1tSkVIf3dIo7k5',  # Database password
-        'HOST': 'dpg-cqq9e7l6l47c73aqeqdg-a.oregon-postgres.render.com',  # Database host
+        'NAME': 'aifans',  # Database name
+        'USER': 'aifans_user',  # Database user
+        'PASSWORD': 'YBm8wQKH6BD2WDSy15cnRGc4M9C4bP4F',  # Database password
+        'HOST': 'dpg-cp2eo36n7f5s73fgh5p0-a.oregon-postgres.render.com',  # Database host
         'PORT': '5432',  # Database port
     }
+    
 
     
     
