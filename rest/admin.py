@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Girls, User,  Photo , Video , Photos , Creator , Password
+from .models import Girls, User,  Photo , Video , Photos , Creator , Password , Auction , Adverts
 
 admin.site.register(Girls)
 admin.site.register(User)
